@@ -1,0 +1,30 @@
+You add your javascript code at the end of the body section of the HTML so as to be able to render the content of the page. Javascript code within the <script> element needs to talk to the elements within the web page
+
+All javascript code should end with a semicolon
+
+Node is a C++ program with Google javascript v8 engine embedded in it.
+
+HTML - content
+JS - behaviour
+
+Variables
+1. cannot be a reserved keyword
+2. should be meaningful, should tell what kind of data is stored within the variable
+3. cannot start with a number
+4. cannot contain space or hypen, use camel notation(firstName)
+5. variable names are case-senstive
+
+if you want don't want to reassign a variable use "const" and if you will reassign a variable use "let"
+
+Reference Type		Primitive/ Value Types
+1.object		1.Numbers
+2.arrays		2.Strings
+3.functions		3.Boolean
+			4.undefined, it is both a datatype and a value
+			5.null, it's typeof is 'object'
+
+In arrays you can have different data types within the array
+A parameter of a function is a variable that is only meaningful inside the function but not accesible outside the function
+
+A function is a set of statements that either performs a task or calculates a value basically.
+
